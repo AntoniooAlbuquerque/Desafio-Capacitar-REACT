@@ -1,17 +1,13 @@
-/* src/index.css */
-
-/* 1. A importação da fonte DEVE ser a primeira coisa no arquivo */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-
-/* 2. O reset básico */
+/* Reset básico para remover margens padrão */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/*O Reset é o passo que garante que você, e não o navegador, está no controle total da aparência do seu site.*/
 
-/* 3. Os estilos globais para a página */
 body {
-  background-color: #fff2f9;
+  background-color: #fff2f9; /* O fundo rosa claro! */
   font-family: "Quicksand", sans-serif;
 }

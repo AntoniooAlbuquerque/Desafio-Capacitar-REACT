@@ -1,0 +1,18 @@
+.hero-container {
+  height: 450px; /* Define uma altura para secção*/
+
+  background-image: url("../assets/central.png"); /* Aqui usamos a imagem*/
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 500px;
+  position: relative;
+}
+
+.hero-container h1 {
+  color:  #800020;
+  font-size: 4.5rem; /* Tamanho do título */
+}
