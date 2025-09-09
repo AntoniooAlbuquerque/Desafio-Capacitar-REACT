@@ -1,0 +1,34 @@
+/* Parte de cima:logo */
+.Header-top {
+  display: flex; /* Usamos flexbox para nos dar mais controle */
+  justify-content: space-between; /* Centraliza a logo horizontalmente */
+  align-items: center;
+  padding: 8px 0; /* Adiciona 20px de espaço em cima e embaixo da logo */
+}
+
+.Header-top img {
+  height: 100px; /* Altera o tamanho da logo */
+}
+
+/* Parte de baixo:navegação */
+.main-nav {
+  display: flex;
+  justify-content: center; /* Centraliza os tópicos no meio da barra */
+  align-items: center; /* Alinha os tópicos verticalmente */
+
+  background-color: #b8404c;
+  padding: 10px 0;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 20px;
+  font-family: sans-serif;
+  transition: opacity 0.2s;
+}
+
+.main-nav a:hover {
+  opacity: 0.8;
+}

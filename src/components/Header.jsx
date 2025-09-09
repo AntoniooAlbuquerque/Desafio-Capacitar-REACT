@@ -1,12 +1,19 @@
-import logoImage from '../assets/logo.png'; 
+import "./Header.css";
+import logoImage from "../assets/logo.png";
 
 function Header() {
   return (
     <header>
-      <div>
-        <img src={logoImage} alt="Logo da Confeitaria" />
+      {" "}
+      {/* Header = Cabeçalho */}
+      {/* Parte de Cima:Logo */}
+      <div className="Header-top">
+        <img src={logoImage} alt="Logo da Confeitaria Gourmet Delight" />
       </div>
-      <nav>
+      {/* Parte de Baixo:Navegação*/}
+      <nav className="main-nav">
+        {" "}
+        {/* nav = navigation */}
         <a href="#">Página Inicial</a>
         <a href="#">Sobre Nós</a>
         <a href="#">Cardápio</a>
