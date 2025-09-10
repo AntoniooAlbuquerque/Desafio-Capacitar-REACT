@@ -1,12 +1,14 @@
 import "./App.css";
-import Header from "./components/Header"; // Importa o seu componente Header
+import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Delicias from './components/Delicias';
 
 function App() {
   return (
     <>
       <Header />
-      <Hero /> {/* 2. Use o componente aqui */}
+      <Hero />
+      <Delicias />
     </>
   );
 }

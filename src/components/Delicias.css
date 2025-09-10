@@ -1,0 +1,36 @@
+.delicias-container {
+  padding: 60px 40px;
+  text-align: left; /* Alinha o título para a ESQUERDA */
+}
+
+.delicias-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px;
+  position: relative; 
+  display: inline-block;
+}
+
+/* Adiciona o sublinhado dourado */
+.delicias-container h2::after {
+  content: '';
+  display: block;
+  width: 70%; /* Largura do sublinhado */
+  height: 3px;
+  background-color: #D4AF37; /* Cor do sublinhado */
+  position: absolute;
+  bottom: -10px; 
+  left: 0;
+}
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.galeria-item img {
+  width: 280px; /* Define uma LARGURA FIXA */
+  height: 400px; /* Define uma ALTURA FIXA para as imagens */
+  object-fit: cover; 
+
+}
