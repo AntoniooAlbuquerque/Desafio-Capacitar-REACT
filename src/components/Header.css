@@ -1,9 +1,9 @@
 /* Parte de cima:logo */
 .Header-top {
-  display: flex; /* Usamos flexbox para nos dar mais controle */
+  display: flex;  /* Permite alinhar os objetos selecionados */
   justify-content: space-between; /* Centraliza a logo horizontalmente */
   align-items: center;
-  padding: 8px 0; /* Adiciona 20px de espaço em cima e embaixo da logo */
+  padding: 8px 0; /* Adiciona espaço em cima e embaixo da logo */
 }
 
 .Header-top img {

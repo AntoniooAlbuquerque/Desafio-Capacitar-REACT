@@ -7,4 +7,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Hero; // Exporta o componente Hero fazendo com que ele possa ser usado

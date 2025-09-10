@@ -1,7 +1,8 @@
 .hero-container {
-  height: 450px; /* Define uma altura para secção*/
+  height: 450px;
+  background-image: url("../assets/central.png");
 
-  background-image: url("../assets/central.png"); /* Aqui usamos a imagem*/
+  /* Estas propriedades garantem que a imagem cubra toda a área sem distorcer. */
   background-size: cover;
   background-position: center;
 
@@ -12,7 +13,8 @@
   position: relative;
 }
 
+/* Estilo para o nosso título <h1> */
 .hero-container h1 {
   color:  #800020;
-  font-size: 4.5rem; /* Tamanho do título */
+  font-size: 4.5rem; 
 }
