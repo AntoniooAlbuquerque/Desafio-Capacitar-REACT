@@ -8,6 +8,6 @@
 /*O Reset é o passo que garante que você, e não o navegador, está no controle total da aparência do seu site.*/
 
 body {
-  background-color: #fff2f9; /* O fundo rosa claro! */
-  font-family: "Quicksand", sans-serif;
+  background-color: #fff2f9; /* O fundo rosa */
+  font-family: "Quicksand", sans-serif; 
 }
